@@ -40,7 +40,7 @@ section {
 }
 
 h2 {
-  color: #ed3a3a;
+  color: #a61c1c;
   border-bottom: 1px solid #333;
   padding-bottom: 0.5rem;
 }
@@ -130,8 +130,8 @@ h1 {
 .tags li:hover {
   background: #2d2d2d;
   color: #bb86fc;
-  box-shadow: 0 0 8px #bb86fc66;
-  border-color: #bb86fc44;
+  box-shadow: 0 0 8px #a61c1c;
+  border-color: #a61c1c;
 }
 .foto-container {
   display: flex;
@@ -144,7 +144,7 @@ h1 {
   height: 130px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #ed3a3a;
+  border: 3px solid #a61c1c;
   box-shadow: 0 0 10px #000000aa;
   transition: transform 0.3s ease-in-out;
 }
@@ -167,7 +167,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #ed3a3a;
+  color: #a61c1c;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
