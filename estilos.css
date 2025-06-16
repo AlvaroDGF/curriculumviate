@@ -230,3 +230,31 @@ text-align: justify;
   color: #ccc;
 }
 
+@media (max-width: 768px) {
+  .cv-container {
+    padding: 15px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  #botonIdioma {
+    float: none;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .cv-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cv-left img {
+    margin: 0 auto;
+  }
+
+  .cv-right h2 {
+    text-align: center;
+  }
+}
