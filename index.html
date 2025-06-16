@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
   <title>Álvaro Gómez - CV</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
@@ -11,62 +13,62 @@
   <div class="cv-container">
     <header>
       <h1>Álvaro Daniel Gómez Flores</h1>
+      <button id="botonIdioma"> Traducir / Translate</button>
       <div class="foto-container">
         <img src="https://scontent.ftpq3-1.fna.fbcdn.net/v/t39.30808-6/347300290_794757651997861_6694046264131136621_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=Ha7uzx0Us7gQ7kNvwEIBEMS&_nc_oc=AdmzGWz6XOzZtkiveSG3yC8YSJjre5QLQ20M07KPoaS50-_-mJ8OHu6RU9QV9JpViDsznqkMD_Cq-S4SwcJAl7Pc&_nc_zt=23&_nc_ht=scontent.ftpq3-1.fna&_nc_gid=Eh5JLMrnkkCmY_9YKFMgsw&oh=00_AfPXB_fM6Lkn9R_HfZ6QvXm9oXcE_Rm8XAqrpv1bBZGMlg&oe=68551351" alt="Foto">
     </div>
-      <p class="titulo">Ingeniero en Sistemas / Desarrolador y soporte técnico general</p>
+      <p class="titulo" data-i18n="titulo"></p>
     </header>
 
     <section class="perfil fade-in delay-1">
-      <h2>Perfil</h2>
-      <p>
-        Egresado de la carrera de Ingeniería en Sistemas, proactivo, meticuloso y hábil en desarrollo de  software y mantenimiento de equipo de cómputo. Lenguajes de programación con  los cuales dispongo de amplio conocimiento son: PHP, Visual Basic, Python, C,  C++ C#, Java, JavaScript y lenguaje de etiquetas (HTML), MySQL, Laravel cuento con  conocimiento en redes informáticas, cámaras de circuito cerrado. 
+      <h2 data-i18n="perfil_titulo">Perfil</h2>
+      <p data-i18n="perfil_texto">
       </p>
     </section>
 
     <section class="experiencia fade-in delay-2">
-      <h2>Experiencia</h2>
+      <h2 data-i18n="experiencia">Experiencia</h2>
       <ul>
         <li>
-          <strong>Programador web</strong> - SB realtors (Enero  2023 a Abril 2023)
-          <p>Desarrollé soluciones web con enfoque en rendimiento y seguridad.</p>
+          <strong data-i18n="exp1"></strong> <p data-i18n="exp2"></p>
+          <p data-i18n="ex1"></p>
         </li>
         <li>
-          <strong>Ing. En Soporte TI</strong> - Grupo Vidanta (Abril 2023 a Septiembre 2024)
-          <p>Diagnóstico y solución de incidencias técnicas, En un entorno de hotelería y restaurantes.</p>
+          <strong data-i18n="exp3"></strong> <p data-i18n="exp4"></p>
+          <p data-i18n="ex2"></p>
         </li>
         <li>
-          <strong>Auxiliar de Sistemas </strong> - Universidad/Colegio Vizcaya de las Americas (2021 - 2022)
-          <p>Realicé Soporte tecnico general, reparación y mantenimiento a equipo de CCV, gestión de las redes de la institución.</p>
+          <strong data-i18n="exp5"></strong> <p data-i18n="exp6"></p>
+          <p data-i18n="ex3"></p>
         </li>
       </ul>
     </section>
 
     <section class="educacion fade-in delay-3">
-      <h2>Educación</h2>
-      <p>Licenciatura en Ingeniería en Sistemas - Tecnológico Superior Mario Molina Pasquel y Henríquez  
+      <h2 data-i18n="edu"></h2>
+      <p data-i18n="title">  
 </p>
     </section>
 
     <section class="skills fade-in delay-4">
-      <h2>Habilidades</h2>
+      <h2 data-i18n="skills"></h2>
       <ul class="tags">
         <li>HTML/CSS/JS</li>
         <li>React</li>
         <li>Node.js</li>
         <li>SQL</li>
-        <li>Resolución de problemas</li>
-        <li>Trabajo bajo presión</li>
+        <li data-i18n="res"></li>
+        <li data-i18n="tra">Trabajo bajo presión</li>
         <li>C++</li>
         <li>Python</li>
         <li>Ruby</li>
-        <li>Gestión de Redes</li>
-        <li>Soporte Técnico general</li>
+        <li data-i18n="ges"></li>
+        <li data-i18n="sop"></li>
       </ul>
     </section>
 
     <footer>
-      <p>Contacto directo:</p>
+      <p data-i18n="cont"></p>
   <ul class="contacto">
     <li><a href="mailto:alvarodanielgomezflores@gmail.com" target="_blank"><i class="fas fa-envelope"></i>Correo</a></li>
     <li><a href="https://wa.me/523228892228" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp</a></li>
