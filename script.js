@@ -20,7 +20,11 @@ const traducciones = {
     tra: "Trabajo bajo presión",
     ges: "Gestión de redes",
     sop: "Soporte Técnico General",
-    cont:"Contacto Directo"
+    cont:"Contacto Directo",
+    edad: "Edad: 31 Años",
+    dom: "Domicilio: San Salvador 235",
+    col: "Colonia: 5 de Diciembre",
+    ciu: "Ciudad: Puerto Vallarta, Jalisco"
 
   },
   en: {
@@ -44,7 +48,11 @@ const traducciones = {
     tra:"Work under pressure",
     ges: "Network Management",
     sop:"General Technical Support",
-    cont:"Direct Contact"
+    cont:"Direct Contact",
+    edad: "Age: 31 Years",
+    dom: "Address: San Salvador 235",
+    col: "Cologne: 5 de Diciembre",
+    ciu: "City: Puerto Vallarta, Jalisco"
   }
   
 };

@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .cv-container {
   max-width: 1000px;
   margin: auto;
@@ -16,30 +15,6 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 10px #000;
 }
-.cv-content {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-/* Columna izquierda: imagen */
-.cv-left {
-  flex: 1 1 250px;
-  text-align: center;
-}
-.cv-left img {
-  width: 100%;
-  max-width: 220px;
-  border-radius: 50%;
-  border: 3px solid #bb86fc;
-}
-
-/* Columna derecha: texto */
-.cv-right {
-  flex: 2 1 400px;
-}
-
 /* Estilo del botón de idioma */
 #botonIdioma {
   float: left;
@@ -62,17 +37,6 @@ header {
   align-items: center;
   padding: 20px;
 }
-h1 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem); /* escala automáticamente */
-  line-height: 1.2;
-  margin: 0;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  text-align: center;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 10px; /* asegura que no pegue con los bordes */
-}
 
 .titulo {
   font-style: italic;
@@ -83,7 +47,7 @@ h1 {
   overflow-wrap: break-word;
   max-width: 100%;
   text-align: center; /* opcional, pero útil en móvil */
-  animation: appearFromDark 2s ease-out 0.3s forwards;
+  animation: appearFromDark 2s ease-out 0.2s forwards;
 }
 
 section {
@@ -104,7 +68,11 @@ ul {
 ul li {
   margin-bottom: 1rem;
 }
-
+.datos{
+color: #fdfdfd;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -153,7 +121,7 @@ h1{
   margin: 0;
   color: #ffffff;
   opacity: 0;
-  animation: appearFromDark 2.5s ease-out 0.3s forwards;
+  animation: appearFromDark 1s ease-out 0.2s forwards;
 }
 @keyframes appearFromDark {
   0% {
@@ -187,7 +155,7 @@ h1{
 .foto-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .foto-container img {
@@ -245,12 +213,8 @@ text-align: justify;
 
 @media (max-width: 768px) {
   .cv-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  header {
+    flex-direction: column; /* Esto coloca todo en columna */
+    align-items: center;     /* Centra horizontalmente */
     text-align: center;
   }
 
