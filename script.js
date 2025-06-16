@@ -1,9 +1,8 @@
 const traducciones = {
   es: {
-    nombre: "Álvaro Gómez",
     perfil_titulo: "Perfil Profesional",
     perfil_texto: "Egresado de la carrera de Ingeniería en Sistemas, proactivo, meticuloso y hábil en desarrollo de  software y mantenimiento de equipo de cómputo. Lenguajes de programación con  los cuales dispongo de amplio conocimiento son: PHP, Visual Basic, Python, C,  C++ C#, Java, JavaScript y lenguaje de etiquetas (HTML), MySQL, Laravel cuento con  conocimiento en redes informáticas, cámaras de circuito cerrado. ",
-    titulo: "  Ingeniero en Sistemas / Desarrolador y soporte técnico general",
+    titulo: "Ingeniero en Sistemas / Desarrolador y soporte técnico general",
     experiencia: "Experiencia ",
     exp1: "Programador web",
     exp2:" ◉ SB realtors (Enero 2023 a Abril 2023)",
@@ -25,10 +24,9 @@ const traducciones = {
 
   },
   en: {
-    nombre: "Álvaro Gomez",
     perfil_titulo: "Professional Profile",
     perfil_texto: "A graduate of Systems Engineering, I am proactive, meticulous, and skilled in software development and computer equipment maintenance. My programming languages ​​of extensive knowledge include PHP, Visual Basic, Python, C, C++, C#, Java, JavaScript, and HTML markup language, MySQL, and Laravel. I also have extensive experience in computer networks and closed-circuit cameras.",
-    titulo: "  Systems Engineer / Developer and General Technical Support",
+    titulo: "Systems Engineer / Developer and General Technical Support",
     experiencia: " Experience ",
     exp1:"Web Programmer",
     exp2: "◉ SB realtors (January 2023 To April 2023)",

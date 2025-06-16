@@ -9,12 +9,51 @@ body {
 
 .cv-container {
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: auto;
+  padding: 30px;
   background: #1e1e1e;
   border: 1px solid #333;
   border-radius: 12px;
   box-shadow: 0 0 10px #000;
+}
+.cv-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* Columna izquierda: imagen */
+.cv-left {
+  flex: 1 1 250px;
+  text-align: center;
+}
+.cv-left img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 50%;
+  border: 3px solid #bb86fc;
+}
+
+/* Columna derecha: texto */
+.cv-right {
+  flex: 2 1 400px;
+}
+
+/* Estilo del botón de idioma */
+#botonIdioma {
+  float: left;
+  background: #333;
+  color: #a61c1c;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+#botonIdioma:hover {
+  background: #444;
 }
 
 header {
@@ -190,19 +229,4 @@ text-align: justify;
   line-height: 1.0;
   color: #ccc;
 }
-#botonIdioma {
-  margin: 20px auto;
-  display: block;
-  padding: 10px 20px;
-  background-color: #222;
-  color: #a61c1c;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
 
-#botonIdioma:hover {
-  background-color: #333;
-}
