@@ -35,6 +35,7 @@ const traducciones = {
     ex1: "I developed web solutions with a focus on performance and security.",
     exp3: "TI Engineer",
     exp4:"◉ Grupo Vidanta (April 2023 To September 2024)",
+    exp5:"Assistant in Systems",
     ex2: "Diagnosis and resolution of technical incidents, in a hotel and restaurant environment.",
     exp6: "◉ Vizcaya University/College of the Americas (2021 - 2022)",
     ex3:"I provided general technical support, repair and maintenance to CCV equipment, and managed the institution's networks.",
