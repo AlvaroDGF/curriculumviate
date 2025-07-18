@@ -258,17 +258,17 @@ text-align: center;
 
 
 .print-btn {
-  background-color: #1a1a1a;
-  color: white;
+ float: center;
+  background: #333;
+  color: #a61c1c;
   border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 8px;
+  padding: 8px 14px;
   cursor: pointer;
-  margin: 1rem;
-  transition: background-color 0.3s ease;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
 .print-btn:hover {
-  background-color: #333;
+  background-color: #444;
 }
