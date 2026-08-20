@@ -2,7 +2,7 @@ const traducciones = {
   es: {
     perfil_titulo: "Perfil Profesional",
     perfil_texto: "Egresado de la carrera de Ingeniería en Sistemas, proactivo, meticuloso y hábil en desarrollo de  software y mantenimiento de equipo de cómputo. Lenguajes de programación con  los cuales dispongo de amplio conocimiento son: PHP, Visual Basic, Python, C,  C++ C#, Java, JavaScript y lenguaje de etiquetas (HTML), MySQL, Laravel cuento con  conocimiento en redes informáticas, cámaras de circuito cerrado. ",
-    titulo: "Ingeniero en Sistemas / Desarrolador y soporte técnico general",
+    titulo: "Ingeniero en Sistemas / Desarrollador y soporte técnico general",
     experiencia: "Experiencia ",
     exp1: "Programador web",
     exp2:" ◉ SB realtors (Enero 2023 a Abril 2023)",
@@ -21,7 +21,7 @@ const traducciones = {
     ges: "Gestión de redes",
     sop: "Soporte Técnico General",
     cont:"Contacto Directo",
-    edad: "Edad: 31 Años",
+    edad: "Edad: 32 Años",
     dom: "Domicilio: San Salvador 235",
     col: "Colonia: 5 de Diciembre",
     ciu: "Ciudad: Puerto Vallarta, Jalisco"
